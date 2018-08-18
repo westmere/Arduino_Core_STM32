@@ -387,6 +387,19 @@ Disco.menu.pnum.DISCO_F407VG.build.product_line=STM32F407xx
 Disco.menu.pnum.DISCO_F407VG.build.variant=DISCO_F407VG
 Disco.menu.pnum.DISCO_F407VG.build.cmsis_lib_gcc=arm_cortexM4l_math
 
+# DISCO_F401VC board
+# Support: USB HID
+Disco.menu.pnum.DISCO_F401VC=STM32F401C-DISC1
+Disco.menu.pnum.DISCO_F401VC.node=DIS_F407VC
+Disco.menu.pnum.DISCO_F401VC.upload.maximum_size=262144
+Disco.menu.pnum.DISCO_F401VC.upload.maximum_data_size=65536
+Disco.menu.pnum.DISCO_F401VC.build.mcu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard
+Disco.menu.pnum.DISCO_F401VC.build.board=DISCO_F401VC
+Disco.menu.pnum.DISCO_F401VC.build.series=STM32F4xx
+Disco.menu.pnum.DISCO_F401VC.build.product_line=STM32F407xx
+Disco.menu.pnum.DISCO_F401VC.build.variant=DISCO_F401VC
+Disco.menu.pnum.DISCO_F401VC.build.cmsis_lib_gcc=arm_cortexM4l_math
+
 # DISCO_F746NG board
 # Support: USB HID, Serial1 (USART6 on PC7, PC6) and Serial2 (UART7 on PF6, PF7)
 Disco.menu.pnum.DISCO_F746NG=STM32F746G-DISCOVERY
