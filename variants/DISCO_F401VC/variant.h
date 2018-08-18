@@ -158,8 +158,8 @@ enum {
 
 // Timer Definitions
 // Do not use timer used by PWM pin. See PinMap_PWM.
-#define TIMER_TONE              TIM6
-#define TIMER_SERVO             TIM7
+#define TIMER_TONE              TIM10
+#define TIMER_SERVO             TIM5
 
 // UART Definitions
 #define SERIAL_UART_INSTANCE    2 //Connected to ST-Link
